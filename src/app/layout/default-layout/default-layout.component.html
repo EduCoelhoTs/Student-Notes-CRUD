@@ -1,4 +1,4 @@
-<mat-drawer-container class="example-container" autosize>
+<!-- <mat-drawer-container class="example-container" autosize>
   <div class="">
     <mat-drawer #drawer class="example-sidenav" mode="side">
       <p>Auto-resizing sidenav</p>
@@ -14,4 +14,35 @@
       </button>
     </div>
   </div>
-</mat-drawer-container>
+</mat-drawer-container> -->
+
+<div class="w-full bg-red-800 py-4 px-8">
+  <div class="w-full flex justify-between items-center">
+    <div></div>
+
+    <div class="">
+      <h2 class="text-white">Sistema de gestão de notas</h2>
+    </div>
+
+    <nav class="flex">
+      <a
+        routerLink="/home"
+        class="text-white mr-4 cursor-pointer"
+        routerLinkActive="active"
+        >Home</a
+      >
+      <a
+        routerLink="/students"
+        class="text-white mr-4 cursor-pointer"
+        routerLinkActive="active"
+        >Alunos</a
+      >
+      <a
+        routerLink="/create"
+        class="text-white mr-4 cursor-pointer"
+        routerLinkActive="active"
+        >Cadastrar</a
+      >
+    </nav>
+  </div>
+</div>
